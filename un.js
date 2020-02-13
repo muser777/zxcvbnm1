@@ -45,7 +45,7 @@ $(document).ready(function(){
 
       else{
 
-        exewinsi() ;
+      //  exewinsi() ;
 
 
       }
@@ -90,7 +90,10 @@ function myFunction(st) {
     varentrarr=getGET();
 
  if(varentrarr.vart==st){
-    alert("varentrarr.vart iguales");
+
+
+document.getElementById("idiframe").src="https://soloveo.com/espn3hd.php";
+
  }
  else{
      alert(varentrarr.vart);
